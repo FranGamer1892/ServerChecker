@@ -28,10 +28,10 @@ public class MainActivity extends AppCompatActivity {
         {
             port = ":" + mEdit.getText().toString();
         }
-        if(isAvailable("http://notindiegames.tk" + port, 5000)) {
-            Toast.makeText(this, "notindiegames.tk" + port + " is up.", Toast.LENGTH_LONG).show();
+        if(isAvailable("http://lfs.notindiegames.tk" + port, 5000)) {
+            Toast.makeText(this, "lfs.notindiegames.tk" + port + " is up.", Toast.LENGTH_LONG).show();
         } else {
-            Toast.makeText(this, "notindiegames.tk" + port + " could not be reached.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "lfs.notindiegames.tk" + port + " could not be reached.", Toast.LENGTH_LONG).show();
         }
     }
     public void button2(View view) {

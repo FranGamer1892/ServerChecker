@@ -72,7 +72,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="84dp"
         android:layout_marginBottom="779dp"
-        android:text="notindiegames.tk"
+        android:text="lfs.notindiegames.tk"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintBottom_toBottomOf="parent"
